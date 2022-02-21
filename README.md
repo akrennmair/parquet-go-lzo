@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://pkg.go.dev/github.com/akrennmair/parquet-go-lzo"><img src="https://pkg.go.dev/badge/github.com/akrennmair/parquet-go-lzo.svg" alt="Go Reference"></a>
-<a href="https://github.com/akrennmair/parquet-go-block-compressors/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202-blue"></a>
+<a href="https://github.com/akrennmair/parquet-go-lzo/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202-blue"></a>
 </p>
 
 This library implements the LZO compression algorithm for [github.com/fraugster/parquet-go](github.com/fraugster/parquet-go). By default,
@@ -14,7 +14,7 @@ algorithm will be automatically available in `parquet-go`.
 
 ```go
 import (
-    _ "github.com/akrennmair/parquet-go-block-compressors/lzo" // registers the LZO block compressor with parquet-go
+    _ "github.com/akrennmair/parquet-go-lzo" // registers the LZO block compressor with parquet-go
 )
 ```
 
